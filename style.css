@@ -1,0 +1,180 @@
+body {
+
+}
+.card {
+  box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2);
+  font-family: arial;
+ margin-top: 100px;
+  text-align: center;
+  max-width:250px;
+ margin-left:100px;
+
+}
+.diss{
+    font-size: 15px;
+    color:blueviolet;
+font-family:poppins;
+}
+.ing{
+    font-size: 15px;
+    color:rebeccapurple;
+    font-family:poppins;
+}
+.row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+
+.price {
+  color: grey;
+  font-family:poppins;
+  font-size: 22px;
+}
+.dis{
+    font-size:22px;
+    font-family:poppins;
+}
+.usage{
+    margin-top:-30px;
+    font-family:poppins;
+    color:#AA336A;
+}
+h1{
+    font-size:35px;
+    color:purple;
+    font-family:poppins;
+}
+h2{
+font-size:37px;
+   color:purple;
+margin-top:40px;
+text-align:center;
+    font-family:poppins;
+
+}
+#myCarousel{
+    margin-top:130px;
+}
+h4{
+    font-size:30px;
+    color:#AA336A;
+    font-family:poppins;
+    text-align: center;
+    margin-top: 30px;
+}
+.note{
+    font-size: 15px;
+    color: black;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+}
+.footer{
+    background-color:#000;
+    padding-top:10px;
+  }
+
+.footer .foo {
+    text-align: center;
+    color: #fff;
+    margin: 0;
+    padding-right:15px;
+    padding-left:15px;
+
+}
+a{
+    color: #fff;
+    margin: 0;
+    font-family: poppins;
+}
+.c{
+  font-size:12px;
+  font-family: poppins;
+  color: #fff;
+  margin:0;
+  text-align: center;
+  padding:10px;
+}
+.fa-instagram{
+    color:white;
+    margin-left:750px;
+}
+nav ul{
+    position:absolute;
+    top:30px;
+    left:0;
+    overflow:hidden;
+
+   background-color:#000;
+
+}
+nav ul li{
+    display:block;
+     margin-right: 50px;
+    margin-top:10px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-family:poppins;
+}
+nav ul li a{
+   position:relative;
+text-decoration: none;
+color:#fff;
+font-size:20px;
+background: #000;
+
+
+}
+.menu-icon{
+    display:inline-block;
+     cursor: pointer;
+     top:0;
+     left:0;
+     position:absolute ;
+     width:30px;
+
+}
+@media only screen and (max-width: 488px){
+    .card {
+        box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2);
+        max-width: 270px;
+        margin: auto;
+        text-align: center;
+        margin-top:100px;
+        font-family: arial;
+      }
+      .row{
+          text-align: center;
+      }
+      footer{
+        background-color:#000;
+        padding-top:10px;
+      }
+
+    .footer .foo {
+        text-align: center;
+        color: #fff;
+        padding-right:15px;
+        padding-left:15px;
+
+    }
+    a{
+        color: #fff;
+        font-family: poppins;
+    }
+  .c{
+      font-size:12px;
+      font-family: poppins;
+      color: #fff;
+      margin:0;
+      text-align: center;
+      padding:10px;
+  }
+    .fa-instagram{
+        color:white;
+        margin-left:130px;
+    }
+
+}

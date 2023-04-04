@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title></title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="HandheldFriendly" content="true">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="style.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Fjalla+One&family=Open+Sans:ital@1&family=Poppins:ital,wght@1,200&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="sidebar">
+        <nav>
+            <ul id="MenuItems">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="soap.html">Soaps And Creams</a></li>
+                <li><a href="cos.html">Cosmetics</a></li>
+                <li><a href="ha.html">Hampers</a></li>
+                <li><a href="resin.html">Resin Items </a></li>
+                <li><a href="minia.html">Miniatures </a></li>
+
+            </ul>
+        </nav>
+
+    </div>
+     <img src="menu.png" class="menu-icon" onclick="menutoggle()" width="22px">
+    <h4>Miniatures</h4>
+    <div class="row">
+        <div class="card">
+            <img src="mini.jpg" alt="tray" style="width:100%">
+            <h1>Minitaure Fridge Magnets</h1>
+            <p class="price"></p>
+            <p class="dis"></p>
+             <p class="usage">Can Be Customised For Rakhis</p>
+        </div>
+        <div class="card">
+            <img src="minia.jpg" alt="tray" style="width:100%">
+            <h1>Customised Photo Fridge Magnet</h1>
+            <p class="price"></p>
+            <p class="dis"></p>
+             <p class="usage"></p>
+        </div>
+        <div class="card">
+            <img src="ear.jpg" alt="tray" style="width:100%">
+            <h1>Earing</h1>
+            <p class="price"></p>
+            <p class="dis"></p>
+             <p class="usage"></p>
+        </div>
+    </div>
+    <div class="footer">
+        <p class="foo"><a href="index.html">Home</a></p>
+        <p class="foo"><a href="soap.html">Soaps And Creams</a></p>
+        <p class="foo"><a href="resin.html">Resin Items</a></p>
+        <p class="foo"><a href="minia.html">Miniature Items</a></p>
+        <p class="foo"><a href="ha.html">Hampers</a></p>
+        <p class="foo"><a href="cos.html">Cosmetics</a></p>
+
+      <a href="https://instagram.com/shradhas_homemade_soaps?utm_medium=copy_link"><i class="fa fa-instagram"></i></a>
+
+        <p class="c">©Shradha's HomeMade Soaps | Designed By Harshita Kumari</p>
+
+
+</div>
+<script>
+    var MenuItems= document.getElementById("MenuItems");
+ MenuItems.style.maxHeight= "0px" ;
+ function menutoggle(){
+     if(MenuItems.style.maxHeight == "0px")
+     {
+         MenuItems.style.maxHeight = "400px";
+
+
+     }
+     else {
+         MenuItems.style.maxHeight = "0px";
+     }
+ }
+    </script>
+    </body>
+    </html>
